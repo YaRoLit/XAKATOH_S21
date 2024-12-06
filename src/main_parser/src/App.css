@@ -1,0 +1,100 @@
+/* Основной контейнер */
+.file-upload-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: #F0F0F0;
+  font-family: "Arial", sans-serif;
+}
+
+/* Логотип */
+.file-upload-logo {
+  width: 320px; /* Размер логотипа */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Форма загрузки */
+.file-upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Заголовок */
+.file-upload-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Поле для файлов */
+.file-upload-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+/* Поле для текста */
+.file-upload-text {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+/* Кнопка */
+.file-upload-button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.file-upload-button:hover {
+  background: #0056b3;
+}
+
+/* Статус */
+.file-upload-status {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #555;
+}
+/* Добавим стиль для прогресс-бара */
+.file-upload-progress-container {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.file-upload-progress-bar {
+  height: 10px;
+  width: 0;
+  background-color: #4caf50;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+.file-upload-db-button {
+  color: #003399;
+  
+}
